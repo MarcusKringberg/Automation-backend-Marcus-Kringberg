@@ -1,0 +1,182 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-01-19T12:25:09.774Z",
+    "end": "2022-01-19T12:25:20.168Z",
+    "duration": 9929,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0340f285-8039-4405-9905-a270c218f6bf",
+      "title": "",
+      "fullFile": "cypress/integration/test-suite-backend.spec.js",
+      "file": "cypress/integration/test-suite-backend.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "6e8c97d4-53be-4c3e-b4d5-2e324c54c32c",
+          "title": "test suite 1",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Get all clients",
+              "fullTitle": "test suite 1 Get all clients",
+              "timedOut": null,
+              "duration": 1787,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "clientHelpers.getAllClientsRequest(cy);",
+              "err": {},
+              "uuid": "2fcaeaf2-6e19-45f3-bf11-cce17c69afae",
+              "parentUUID": "6e8c97d4-53be-4c3e-b4d5-2e324c54c32c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Create a client and delete it",
+              "fullTitle": "test suite 1 Create a client and delete it",
+              "timedOut": null,
+              "duration": 1691,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "clientHelpers.createClientRequestAndDelete(cy);",
+              "err": {},
+              "uuid": "81dbda83-ab29-40b6-9f66-b4792d8747c0",
+              "parentUUID": "6e8c97d4-53be-4c3e-b4d5-2e324c54c32c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Create a bill and delete it",
+              "fullTitle": "test suite 1 Create a bill and delete it",
+              "timedOut": null,
+              "duration": 1590,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "billsHelpers.createBillRequestAndDelete(cy);",
+              "err": {},
+              "uuid": "d61b58e3-b94a-4319-9d2b-021f0abe80ba",
+              "parentUUID": "6e8c97d4-53be-4c3e-b4d5-2e324c54c32c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Create a room and delete it",
+              "fullTitle": "test suite 1 Create a room and delete it",
+              "timedOut": null,
+              "duration": 3396,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "roomsHelpers.createRoomRequestAndDelete(cy);",
+              "err": {},
+              "uuid": "8681f4c1-7bf8-4eac-9efb-ecf98147b6b7",
+              "parentUUID": "6e8c97d4-53be-4c3e-b4d5-2e324c54c32c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Create a reservation and delete it",
+              "fullTitle": "test suite 1 Create a reservation and delete it",
+              "timedOut": null,
+              "duration": 1465,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "reservationHelpers.createReservationRequestAndDelete(cy);",
+              "err": {},
+              "uuid": "1f557a4b-f6a7-4b23-897c-2a083da7c82e",
+              "parentUUID": "6e8c97d4-53be-4c3e-b4d5-2e324c54c32c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "2fcaeaf2-6e19-45f3-bf11-cce17c69afae",
+            "81dbda83-ab29-40b6-9f66-b4792d8747c0",
+            "d61b58e3-b94a-4319-9d2b-021f0abe80ba",
+            "8681f4c1-7bf8-4eac-9efb-ecf98147b6b7",
+            "1f557a4b-f6a7-4b23-897c-2a083da7c82e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 9929,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/report/mochawesome-report"
+      },
+      "version": "6.0.1"
+    }
+  }
+}
